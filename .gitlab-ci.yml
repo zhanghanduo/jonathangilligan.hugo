@@ -7,7 +7,8 @@ variables:
 
 pages:
   script:
-  - hugo
+  - rm -rf public
+  - hugo --ignoreCache
   artifacts:
     paths:
     - public
