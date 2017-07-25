@@ -54,6 +54,8 @@ blackfriday:
   latexDashes: true
   hrefTargetBlank: true
 googleAnalytics: "UA-101117636-1"
+typekitCode: "cwm0smq"
+
 params:
   AuthorName: "Jonathan Gilligan"
   bio_name: "Jonathan Gilligan"
