@@ -7,6 +7,7 @@ variables:
 
 pages:
   script:
+  - hugo version
   - rm -rf public
   - fgrep -ir baseurl *
   - fgrep -ir jonathangilligan.org *
