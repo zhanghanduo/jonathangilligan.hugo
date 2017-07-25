@@ -9,6 +9,7 @@ pages:
   script:
   - rm -rf public
   - fgrep -ir baseurl *
+  - fgrep -ir jonathangilligan.org *
   - hugo --ignoreCache
   artifacts:
     paths:
