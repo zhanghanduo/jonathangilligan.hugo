@@ -4,7 +4,7 @@ image: publysher/hugo
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  
+
 pages:
   script:
   - hugo
@@ -12,10 +12,10 @@ pages:
     paths:
     - public
   only:
-  - master
-  
+  - gitlab_pages
+
 test:
   script:
   - hugo
   except:
-  - master
+  - gitlab_pages
